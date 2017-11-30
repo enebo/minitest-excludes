@@ -9,6 +9,7 @@ Hoe.plugin :seattlerb
 Hoe.add_include_dirs "../../minitest/dev/lib"
 
 Hoe.plugin :bundler
+Hoe.plugin :gemspec
 
 Hoe.spec "minitest-excludes" do
   developer "Ryan Davis", "ryand-ruby@zenspider.com"
