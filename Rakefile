@@ -8,10 +8,13 @@ Hoe.plugin :seattlerb
 
 Hoe.add_include_dirs "../../minitest/dev/lib"
 
+Hoe.plugin :bundler
+
 Hoe.spec "minitest-excludes" do
   developer "Ryan Davis", "ryand-ruby@zenspider.com"
 
   dependency "minitest", "~> 5.0"
 end
+
 
 # vim: syntax=ruby
